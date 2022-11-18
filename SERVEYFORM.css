@@ -1,0 +1,86 @@
+table ,th ,tr, td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+th{
+    text-transform: capitalize;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+.row1{
+    width: 40%;
+}
+.row2{
+    width: 10%;
+}
+.row3{
+    width: 10%;
+}
+.row4{
+    width: 10%;
+}
+.row5{
+    width: 10%;
+}
+.row6{
+    width: 10%;
+}
+body{
+    margin: 0;
+    padding: 20px;
+    
+}
+h1{
+    text-align: center;
+    
+}
+.para{
+    line-height: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.container2{
+    display: flex;
+    width: 1200px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.child1{
+
+    width: 300px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+   
+}
+button{
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    border-color: aliceblue;
+
+}
+
+.spn{
+    padding: 30px;
+}
+
+body{
+    background-color: lightblue;
+}
+
+
+

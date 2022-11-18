@@ -1,0 +1,115 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.child1{
+    display: flex;
+align-items: center;  
+justify-content: center;
+flex-direction: column;
+    width: 25rem;
+    height: 25rem;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: white;
+    border-top: 1px solid rgba(255, 255, 108, 0.287);
+    box-shadow: 0px 3px 3px 0px black ;
+    opacity: 0.9;
+
+
+}
+
+.child2{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    flex-direction: column;
+    background-color: #74c0fc;
+    color: white;
+    box-shadow: 3px 3px 6px black ;
+}
+
+.child1 i {
+    font-size: 35px;
+    display: inline;
+    padding: 20px;
+}
+
+
+
+input{
+ width: 220px;
+ padding: 10px;
+ margin: 10px;
+ border-color: transparent;
+ background-color:rgba(119, 108, 108, 0.287);
+ 
+
+}
+
+a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: transparent;
+    background-color: #74c0fc;
+    border-color: white;
+    box-shadow: 2px 2px 2px;
+}
+
+.btn1{
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    border-color: rgb(239, 221, 221);
+    box-shadow: 2px 2px 2px;
+
+}
+.fa-instagram{
+    color: #f600d6;
+}
+.fa-facebook{
+    
+    border-radius: 50%;
+    font-size: 5px;
+    padding: 0;
+}
+
+.fa-twitter{
+    color:#1c96e8 ;
+}
+
+span{
+    padding: 20px;
+}
+
+*{
+    text-transform: capitalize;
+}
+p{
+    word-spacing: 0.1cm;
+}
+
+

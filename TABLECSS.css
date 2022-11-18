@@ -1,0 +1,57 @@
+table,tr {
+    
+    border-collapse: collapse;
+    width: 1000px;
+    border-radius: 1em;
+   overflow: hidden;
+ 
+}
+tr{
+    padding: 1em;
+    text-align: center;
+}
+
+table{
+    box-shadow: 4px 3px 4px black;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right,#a90056,blue,violet);
+
+}
+tr:nth-child(even){
+    background-color: antiquewhite;
+}
+tr:nth-child(odd){
+    background-color:bisque;
+}
+
+th{
+    height: 60px;
+    text-align: center;
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+}
+td{
+    height: 50px;
+}
+
+*
+{
+    text-transform: capitalize;
+}
+
+
+
+
